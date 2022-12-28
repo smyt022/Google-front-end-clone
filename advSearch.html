@@ -2,8 +2,66 @@
 <html lang="en">
     <head>
         <title>Advanced Search</title>
+        <link rel="stylesheet" href="allPageStyling.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <style>
+            body{
+                background-color: darkslategray;
+                text-align: left;
+                padding-left: 5%;
+            }
+        </style>
     </head>
     <body>
-        This is advanced search
+        <div class="topRightLinks">
+            <a href="index.html">Return to Google Search</a>
+        </div>
+        
+        <div style="font-family: cursive; color:lightblue;
+        font-size: 200%;">
+            GOOGLE
+        </div>
+
+        <div style="color:red; padding-bottom: 5%;">advanced search</div>
+
+        <div style="color: paleturquoise; padding-bottom: 2%;">Find pages with...</div>
+
+        <form action="https://www.google.com/search">
+                <div class="row">
+                    <div class="col-4" style="color: lightblue;">
+                        all these words:
+                    </div>
+                    <div class="col-8">
+                        <input type="text" name="as_q" id="searchBar">
+                    </div>
+
+                    <div class="col-4" style="color: lightblue;">
+                        this exact word or phrase:
+                    </div>
+                    <div class="col-8">
+                        <input type="text" name="as_epq" id="searchBar">
+                    </div>
+
+                    <div class="col-4" style="color: lightblue;">
+                        any of these words:
+                    </div>
+                    <div class="col-8">
+                        <input type="text" name="as_oq" id="searchBar">
+                    </div>
+
+                    <div class="col-4" style="color: lightblue;">
+                        none of these words:
+                    </div>
+                    <div class="col-8">
+                        <input type="text" name="as_eq" id="searchBar">
+                    </div>
+
+
+                    <div class="col-12">
+                        <input type="submit" value="Advanced Search" style="background-color: blue; color:white">
+                    </div>
+                </div>
+        </form>
+
     </body>
 </html>

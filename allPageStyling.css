@@ -1,0 +1,41 @@
+#searchRow{
+    text-align: center;
+}
+
+#googleText{
+    color:lightblue;
+    font-family: cursive;
+    font-size: 400%;
+    text-align: center;
+    padding: 5%;
+}
+
+#searchBar{
+    border-radius: 15px 15px 15px 15px;
+    margin: 1%;
+}
+
+#googleSearchBtn{
+    text-align: right;
+    margin: 0%;
+    padding:1%;
+}
+
+#feelingLuckyBtn{
+    text-align: left;
+    margin: 0%;
+    padding:1%;
+}
+
+.topRightLinks{
+    text-align: right;
+    padding-right: 5%;
+}
+
+a{
+    color: lightskyblue;
+}
+
+body{
+    background-color: darkslategray;
+}

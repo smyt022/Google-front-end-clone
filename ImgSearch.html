@@ -2,8 +2,34 @@
 <html lang="en">
     <head>
         <title>Image search</title>
+        <link rel="stylesheet" href="allPageStyling.css">
     </head>
     <body>
-        This is image search
+        <div class="topRightLinks">
+            <a href="index.html">Return to Google Search</a>
+        </div>
+
+        <div id="googleText">
+            GOOGLE
+        </div>
+
+        <div style="text-align: center;">images</div>
+
+
+
+        <div id="searchRow">
+           <form action="https://www.google.com/search">
+                <div class="row">
+                    <div class="col-12">
+                        <input type="text" name="q" id="searchBar">
+                    </div>
+                    <div class="col-12">
+                        <input type="submit" value="Google Search images">
+                        <input type="hidden" value="isch" name="tbm">
+                    </div>
+                </div>
+            </form>
+        </div>
+        
     </body>
 </html>
